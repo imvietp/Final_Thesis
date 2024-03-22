@@ -2,11 +2,15 @@
 #define DHTPIN 4     // what digital pin the DHT sensor is connected to
 #define DHTTYPE DHT11   // there are multiple kinds of DHT sensors
 DHT dht(DHTPIN, DHTTYPE);
+
+
 void setup() {
   Serial.begin(9600);
   Serial.println("DHTxx test!");
   dht.begin();
 }
+
+
 void loop() {
   // Wait a few seconds between measurements.
   delay(2000);
@@ -20,8 +24,10 @@ void loop() {
     Serial.println("Failed to read from DHT sensor!");
     return;
   }
+
   // Compute heat index in Fahrenheit (the default)
   float hif = dht.computeHeatIndex(f, h);
+  
   // Compute heat index in Celsius (Fahrenheit = false)
   float hic = dht.computeHeatIndex(t, h, false);
   Serial.print("Humidity: ");
