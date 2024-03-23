@@ -1,4 +1,5 @@
 int light_sensor = 15; 
+int led_light_sensor = 21;
  
 void setup() {
 Serial.begin(9600); //begin Serial Communication
@@ -10,6 +11,16 @@ void loop() {
  
   Serial.print("Light level: "); 
   Serial.println(light); // print the light value in Serial Monitor
+
+  if(light >= 300)
+  {
+    analogWrite(led_light_sensor, light);
+  }
+  else
+  {
+    analogWrite(led_light_sensor, LOW);
+  }
+
  
   delay(1000); // add a delay to only read and print every 1 second
 }

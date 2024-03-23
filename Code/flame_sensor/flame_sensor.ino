@@ -1,4 +1,4 @@
-+#define flame_sensor 5
+#define flame_sensor 5
 #define led 18
 
 

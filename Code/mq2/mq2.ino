@@ -1,6 +1,6 @@
 // Sensor pins pin D6 LED output, pin A0 analog Input
 
-#define ledPin 18
+#define ledPin 19
 
 #define sensorPin 34
 
@@ -34,14 +34,14 @@ int readSensor() {
   unsigned int outputValue = map(sensorValue, 0, 1023, 0, 255); // map the 10-bit data to 8-bit data
 
 
-  if (outputValue > 65)
-
+  if (outputValue > 400)
+  {
     analogWrite(ledPin, outputValue); // generate PWM signal
-
-
+  }
   else
-
-    digitalWrite(ledPin, LOW);
+  {
+    analogWrite(ledPin, LOW);
+  }
 
   return outputValue;             // Return analog moisture value
 
