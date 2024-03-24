@@ -85,7 +85,7 @@ void dht11_relay() {
   }
   
   // Control the relay based on temperature
-  if (t >= 31) {
+  if (t >= 32.00) {
     digitalWrite(dht_relay, HIGH); // Turn on the relay
   } else {
     digitalWrite(dht_relay, LOW); // Turn off the relay
@@ -107,6 +107,7 @@ void light_sensor_function() {
   }
 }
 
+
 // FLAME SENSOR FUNCTION
 void flamesensor() {
   digitalWrite(led_flame_sensor, HIGH);
@@ -117,6 +118,7 @@ void flamesensor_off() {
   digitalWrite(led_flame_sensor, LOW);
   Serial.println("No Fire detected");
 }
+
 
 // MQ2 SENSOR FUNCTION
 // Read sensor
@@ -131,6 +133,7 @@ int readSensor_MQ2() {
   }
   return outputValue;
 }
+
 
 // Print the value to terminal
 void print_sensor_MQ2() {

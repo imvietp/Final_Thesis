@@ -1,17 +1,41 @@
 #include "DHT.h"
 #define DHTPIN 4     // what digital pin the DHT sensor is connected to
 #define DHTTYPE DHT11   // there are multiple kinds of DHT sensors
+#define dht_relay_cooler 13
+#define dht_relay_warmer 12
+
+
 DHT dht(DHTPIN, DHTTYPE);
 
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Serial.println("DHTxx test!");
   dht.begin();
+  pinMode(dht_relay_cooler, OUTPUT);
+  pinMode(dht_relay_warmer, OUTPUT);
 }
 
 
 void loop() {
+  dht11_function(); // Read DHT11 sensor data
+  float t = dht.readTemperature(); // Read temperature value
+
+  // Control the relay based on temperature
+  if (t > 33.70) {
+    // If temperature is higher than 33.6 degrees Celsius, turn on the cooler relay and turn off the warmer relay
+    digitalWrite(dht_relay_cooler, HIGH);
+    digitalWrite(dht_relay_warmer, LOW); // Ensure the warmer relay is off
+  } 
+  else {
+    // If temperature is less than or equal to 33.6 degrees Celsius, turn on the warmer relay and turn off the cooler relay
+    digitalWrite(dht_relay_cooler, LOW); // Ensure the cooler relay is off
+    digitalWrite(dht_relay_warmer, HIGH);
+  }
+}
+
+
+void dht11_function(){
   // Wait a few seconds between measurements.
   delay(2000);
   float h = dht.readHumidity();
