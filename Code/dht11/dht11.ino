@@ -3,7 +3,7 @@
 #define DHTTYPE DHT11   // there are multiple kinds of DHT sensors
 #define dht_relay_cooler 13
 #define dht_relay_warmer 12
-
+#define dht_relay_humid 14
 
 DHT dht(DHTPIN, DHTTYPE);
 
@@ -14,23 +14,36 @@ void setup() {
   dht.begin();
   pinMode(dht_relay_cooler, OUTPUT);
   pinMode(dht_relay_warmer, OUTPUT);
+  pinMode(dht_relay_humid, OUTPUT);
 }
 
 
 void loop() {
   dht11_function(); // Read DHT11 sensor data
   float t = dht.readTemperature(); // Read temperature value
-
+  float h = dht.readHumidity();
   // Control the relay based on temperature
-  if (t > 33.70) {
+  if (t > 33.75) 
+  {
     // If temperature is higher than 33.6 degrees Celsius, turn on the cooler relay and turn off the warmer relay
     digitalWrite(dht_relay_cooler, HIGH);
     digitalWrite(dht_relay_warmer, LOW); // Ensure the warmer relay is off
   } 
-  else {
+  else if (t <= 33.75)
+  {
     // If temperature is less than or equal to 33.6 degrees Celsius, turn on the warmer relay and turn off the cooler relay
     digitalWrite(dht_relay_cooler, LOW); // Ensure the cooler relay is off
     digitalWrite(dht_relay_warmer, HIGH);
+  }
+
+  // Control the relay based on HUMIDITY
+  if (h < 70)
+  {
+    digitalWrite(dht_relay_humid, HIGH);
+  }
+  else
+  {
+    digitalWrite(dht_relay_humid, LOW); 
   }
 }
 
