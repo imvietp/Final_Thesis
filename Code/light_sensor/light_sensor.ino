@@ -1,8 +1,8 @@
 int light_sensor = 15; 
-int led_light_sensor = 21;
+int led_light_sensor = 18;
  
 void setup() {
-Serial.begin(9600); //begin Serial Communication
+Serial.begin(115200); //begin Serial Communication
 }
  
 void loop() {

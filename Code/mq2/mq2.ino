@@ -1,13 +1,14 @@
 // Sensor pins pin D6 LED output, pin A0 analog Input
 
-#define ledPin 19
+#define ledPin 26
 
-#define sensorPin 34
+#define sensorPin 25
+
 
 
 void setup() {
 
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
 

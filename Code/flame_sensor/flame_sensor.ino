@@ -1,12 +1,12 @@
 #define flame_sensor 5
-#define led 18
+#define led 27
 
 
 void setup()
 {
   pinMode(flame_sensor, INPUT); //initialize Flame sensor output pin connected pin as input.
   pinMode(led, OUTPUT);// initialize digital pin LED_BUILTIN as an output.
-  Serial.begin(9600);// initialize serial communication @ 9600 baud:
+  Serial.begin(112500);// initialize serial communication @ 9600 baud:
 }
 void loop()
 {
