@@ -1,0 +1,4 @@
+Added Component: Designator=Arduino Mega(ARDUINO MEGA)
+Added Class: Name=schematicArduinoMega
+Added Member To Class: ClassName=schematic Member=Component A? ARDUINO_MEGA_2560_REV3_A000067
+Added Room: Name=schematicArduinoMega

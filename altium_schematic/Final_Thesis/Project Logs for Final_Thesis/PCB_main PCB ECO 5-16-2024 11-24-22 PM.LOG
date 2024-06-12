@@ -1,0 +1,90 @@
+Removed Pin From Net: NetName=mq2_Sensor Pin=Esp32-20
+Removed Pin From Net: NetName=quat_dht11 Pin=in1_2-1
+Removed Pin From Net: NetName=densuoi Pin=in1_2-2
+Removed Pin From Net: NetName=phunsuong Pin=in3_4-2
+Removed Pin From Net: NetName=phunsuong_dapchay Pin=in5_6-2
+Removed Pin From Net: NetName=+5 Pin=servo?-2
+Removed Pin From Net: NetName=GND Pin=servo?-3
+Removed Member From Class: ClassName=schematic Member=in1_2
+Removed Member From Class: ClassName=schematic Member=in7_8
+Removed Member From Class: ClassName=schematic Member=servo?
+Added Component: Designator=A?(ARDUINO_ARDUINO_MEGA_2560_REV3_A000067)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ARDUINO%20MEGA%202560%20REV3%20%7C%20A000067/Arduino/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ARDUINO MEGA 2560 REV3 | A000067"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Non-Standard Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ARDUINO%20MEGA%202560%20REV3%20%7C%20A000067/Arduino/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(HDR3)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Component: Designator=D1(DO41-1)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1N5817"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-41 STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1N5817/STMicroelectronics/view-part/2770372/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D(DO41-1)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1N5817"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DO-41 STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1N5817/STMicroelectronics/view-part/2770372/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=ModuleSim(HDR5)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "02"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613002143121"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=densuoi Pin=C?-1
+Added Pin To Net: NetName=quat_dht11 Pin=C?-2
+Added Pin To Net: NetName=phunsuong Pin=C?-3
+Added Pin To Net: NetName=+5 Pin=D1-C
+Added Pin To Net: NetName=+5 Pin=D-C
+Added Pin To Net: NetName=phunsuong_dapchay Pin=in3_4-1
+Added Pin To Net: NetName=GND Pin=ModuleSim-3
+Added Pin To Net: NetName=GND Pin=ModuleSim-4
+Added Pin To Net: NetName=buzzerCanhBaoChay Pin=A?-6
+Added Pin To Net: NetName=buzzerCanhBaoChay Pin=in3_4-2
+Added Pin To Net: NetName=buzzerCanhBaoChay Pin=R2-1
+Added Net: Name=buzzerCanhBaoChay
+Added Pin To Net: NetName=NetD1_A Pin=D1-A
+Added Pin To Net: NetName=NetD1_A Pin=LS2-N
+Added Pin To Net: NetName=NetD1_A Pin=Q2-2
+Added Net: Name=NetD1_A
+Added Pin To Net: NetName=NetD_A Pin=D-A
+Added Pin To Net: NetName=NetD_A Pin=LS1-N
+Added Pin To Net: NetName=NetD_A Pin=Q1-2
+Added Net: Name=NetD_A
+Added Pin To Net: NetName=pinChoAn Pin=A?-9
+Added Pin To Net: NetName=pinChoAn Pin=in5_6-1
+Added Net: Name=pinChoAn
+Added Pin To Net: NetName=pinDenTrangTrai Pin=A?-8
+Added Pin To Net: NetName=pinDenTrangTrai Pin=in5_6-2
+Added Net: Name=pinDenTrangTrai
+Added Pin To Net: NetName=rxSim Pin=ModuleSim-1
+Added Net: Name=rxSim
+Added Pin To Net: NetName=txSim Pin=ModuleSim-2
+Added Net: Name=txSim
+Added Class: Name=arduinomega
+Added Member To Class: ClassName=schematic Member=Component C? Header3
+Added Member To Class: ClassName=schematic Member=Component D1 1N5817
+Added Member To Class: ClassName=schematic Member=Component D 1N5817
+Added Member To Class: ClassName=schematic Member=Component ModuleSim Header5
+Added Room: Name=arduinomega
+Added Room: Name=schematic

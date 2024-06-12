@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=25 Pin=MQ2_sensor-4
+Added Component: Designator=A?(ARDUINO_ARDUINO_MEGA_2560_REV3_A000067)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ARDUINO%20MEGA%202560%20REV3%20%7C%20A000067/Arduino/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ARDUINO MEGA 2560 REV3 | A000067"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Non-Standard Arduino"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ARDUINO%20MEGA%202560%20REV3%20%7C%20A000067/Arduino/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Esp32-2
+Added Pin To Net: NetName=GND Pin=Esp32-29
+Added Pin To Net: NetName=25 Pin=in7_8-1
+Added Pin To Net: NetName=32 Pin=Esp32-21
+Added Pin To Net: NetName=32 Pin=in7_8-2
+Added Net: Name=32
+Added Pin To Net: NetName=33 Pin=Esp32-22
+Added Pin To Net: NetName=33 Pin=in5_6-1
+Added Net: Name=33
+Added Pin To Net: NetName=35 Pin=Esp32-20
+Added Pin To Net: NetName=35 Pin=MQ2_sensor-4
+Added Net: Name=35
+Added Class: Name=arduinomega
+Added Room: Name=arduinomega

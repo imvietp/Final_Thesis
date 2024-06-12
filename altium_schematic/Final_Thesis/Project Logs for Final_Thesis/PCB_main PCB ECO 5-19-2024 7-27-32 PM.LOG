@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=buzzerCanhBaoChay Pin=in3_4-2
+Removed Pin From Net: NetName=GND Pin=lcd_i2c-1
+Removed Pin From Net: NetName=+5 Pin=lcd_i2c-2
+Removed Member From Class: ClassName=schematic Member=lcd_i2c
+Added Pin To Net: NetName=rxSim Pin=A?-16
+Added Pin To Net: NetName=txSim Pin=A?-17
+Added Pin To Net: NetName=mq2_Sensor Pin=A?-AD1
+Added Pin To Net: NetName=+5 Pin=ModuleSim-5
+Added Pin To Net: NetName=pinBuzzer_MQ2 Pin=A?-11
+Added Pin To Net: NetName=pinBuzzer_MQ2 Pin=R1-1
+Added Net: Name=pinBuzzer_MQ2
+Added Pin To Net: NetName=quat_MQ2 Pin=A?-12
+Added Pin To Net: NetName=quat_MQ2 Pin=in3_4-2
+Added Net: Name=quat_MQ2

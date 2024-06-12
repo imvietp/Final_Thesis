@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=densuoi Pin=C?-1
+Removed Pin From Net: NetName=quat_dht11 Pin=C?-2
+Removed Pin From Net: NetName=phunsuong Pin=C?-3
+Removed Member From Class: ClassName=schematic Member=C?
+Removed Member From Class: ClassName=schematic Member=JP?
+Change Component Designator: OldDesignator=in3_4 NewDesignator=in4_5
+Change Component Designator: OldDesignator=in5_6 NewDesignator=in6_7
+Added Component: Designator=in1_2_3(CON 3 3EDG5.08)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH000760"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "CON 3 2EDG5.08-3P 5.08MM ( Xanh Cong)"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=densuoi Pin=in1_2_3-1
+Added Pin To Net: NetName=quat_dht11 Pin=in1_2_3-2
+Added Pin To Net: NetName=phunsuong Pin=in1_2_3-3
+Added Member To Class: ClassName=schematic Member=Component in1_2_3 CON 3 EDG5.08
+Added Room: Name=schematic

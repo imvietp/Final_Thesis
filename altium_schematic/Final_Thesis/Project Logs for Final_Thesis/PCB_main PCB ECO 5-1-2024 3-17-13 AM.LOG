@@ -1,0 +1,120 @@
+Removed Pin From Net: NetName=GND Pin=buttonCleaning-1
+Removed Pin From Net: NetName=GND Pin=buttonLed-1
+Removed Pin From Net: NetName=GND Pin=buttonPump-1
+Removed Pin From Net: NetName=GND Pin=buttonShower-1
+Removed Pin From Net: NetName=19 Pin=Esp32-10
+Removed Pin From Net: NetName=sda Pin=Esp32-11
+Removed Pin From Net: NetName=scl Pin=Esp32-14
+Removed Pin From Net: NetName=+5 Pin=gnd_vin_relay-2
+Removed Pin From Net: NetName=19 Pin=in1_2-1
+Removed Pin From Net: NetName=+5 Pin=Rcleaning-1
+Removed Pin From Net: NetName=+5 Pin=Rled-1
+Removed Pin From Net: NetName=+5 Pin=Rpump-1
+Removed Pin From Net: NetName=+5 Pin=Rshower-1
+Removed Member From Class: ClassName=schematic Member=buttonCleaning
+Removed Member From Class: ClassName=schematic Member=buttonLed
+Removed Member From Class: ClassName=schematic Member=buttonPump
+Removed Member From Class: ClassName=schematic Member=buttonShower
+Removed Member From Class: ClassName=schematic Member=Rcleaning
+Removed Member From Class: ClassName=schematic Member=Rled
+Removed Member From Class: ClassName=schematic Member=Rpump
+Removed Member From Class: ClassName=schematic Member=Rshower
+Added Component: Designator=LS1(XDCR_AI-1027-TWT-3V-R)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/AI-1027-TWT-3V-R/PUI+Audio%252C+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "PUI Audio"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "AI-1027-TWT-3V-R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/AI-1027-TWT-3V-R/PUI+Audio%252C+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=LS2(XDCR_AI-1027-TWT-3V-R)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/AI-1027-TWT-3V-R/PUI+Audio%252C+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "PUI Audio"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "AI-1027-TWT-3V-R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/AI-1027-TWT-3V-R/PUI+Audio%252C+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q1(TO92-123)
+Add component (AddParameter): Name = "Value"; Value = "C1815"; VariantName = "[No Variations]"
+Added Component: Designator=Q2(TO92-123)
+Add component (AddParameter): Name = "Value"; Value = "C1815"; VariantName = "[No Variations]"
+Added Component: Designator=R1(tro vach 1/4w)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH007300"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? V?ch 1/4w 5% 220R"; VariantName = "[No Variations]"
+Added Component: Designator=R2(tro vach 1/4w)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH007300"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Tr? V?ch 1/4w 5% 220R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=A?-GND1
+Added Pin To Net: NetName=GND Pin=A?-GND2
+Added Pin To Net: NetName=GND Pin=A?-GND3
+Added Pin To Net: NetName=GND Pin=A?-GND4
+Added Pin To Net: NetName=GND Pin=A?-GND5
+Added Pin To Net: NetName=EN Pin=A?-RESET
+Added Pin To Net: NetName=+5 Pin=LS1-P
+Added Pin To Net: NetName=+5 Pin=LS2-P
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q2-1
+Change Net Name : Old Net Name=4 New Net Name=dht11_Sensor
+Change Net Name : Old Net Name=35 New Net Name=mq2_Sensor
+Added Pin To Net: NetName=+12 Pin=buck_lm2596-1
+Added Pin To Net: NetName=+12 Pin=gnd_vin_relay-2
+Added Pin To Net: NetName=+12 Pin=Jack_cam-1
+Added Net: Name=+12
+Added Pin To Net: NetName=canhbao_mq2 Pin=A?-8
+Added Pin To Net: NetName=canhbao_mq2 Pin=in5_6-1
+Added Pin To Net: NetName=canhbao_mq2 Pin=R1-1
+Added Net: Name=canhbao_mq2
+Added Pin To Net: NetName=dencanhbao_chay Pin=A?-6
+Added Pin To Net: NetName=dencanhbao_chay Pin=in3_4-1
+Added Pin To Net: NetName=dencanhbao_chay Pin=R2-1
+Added Net: Name=dencanhbao_chay
+Added Pin To Net: NetName=densuoi Pin=A?-3
+Added Pin To Net: NetName=densuoi Pin=in1_2-2
+Added Net: Name=densuoi
+Added Pin To Net: NetName=flame_Sensor Pin=A?-22
+Added Pin To Net: NetName=flame_Sensor Pin=flame_sensor-1
+Added Net: Name=flame_Sensor
+Added Pin To Net: NetName=led_chuong Pin=A?-9
+Added Pin To Net: NetName=led_chuong Pin=in7_8-2
+Added Net: Name=led_chuong
+Added Pin To Net: NetName=NetLS1_N Pin=LS1-N
+Added Pin To Net: NetName=NetLS1_N Pin=Q1-2
+Added Net: Name=NetLS1_N
+Added Pin To Net: NetName=NetLS2_N Pin=LS2-N
+Added Pin To Net: NetName=NetLS2_N Pin=Q2-2
+Added Net: Name=NetLS2_N
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=R1-2
+Added Net: Name=NetQ1_3
+Added Pin To Net: NetName=NetQ2_3 Pin=Q2-3
+Added Pin To Net: NetName=NetQ2_3 Pin=R2-2
+Added Net: Name=NetQ2_3
+Added Pin To Net: NetName=phunsuong_dapchay Pin=A?-7
+Added Pin To Net: NetName=phunsuong_dapchay Pin=in5_6-2
+Added Net: Name=phunsuong_dapchay
+Added Pin To Net: NetName=phunsuong Pin=A?-5
+Added Pin To Net: NetName=phunsuong Pin=in3_4-2
+Added Net: Name=phunsuong
+Added Pin To Net: NetName=quat_dht11 Pin=A?-4
+Added Pin To Net: NetName=quat_dht11 Pin=in1_2-1
+Added Net: Name=quat_dht11
+Added Pin To Net: NetName=RX2_TX2 Pin=A?-14
+Added Pin To Net: NetName=RX2_TX2 Pin=Esp32-6
+Added Net: Name=RX2_TX2
+Added Pin To Net: NetName=TX2_RX2 Pin=A?-15
+Added Pin To Net: NetName=TX2_RX2 Pin=Esp32-7
+Added Net: Name=TX2_RX2
+Added Member To Class: ClassName=schematic Member=Component A? ARDUINO_MEGA_2560_REV3_A000067
+Added Member To Class: ClassName=schematic Member=Component LS1 AI-1027-TWT-3V-R
+Added Member To Class: ClassName=schematic Member=Component LS2 AI-1027-TWT-3V-R
+Added Member To Class: ClassName=schematic Member=Component Q1 2SC1815
+Added Member To Class: ClassName=schematic Member=Component Q2 2SC1815
+Added Member To Class: ClassName=schematic Member=Component R1 10K
+Added Member To Class: ClassName=schematic Member=Component R2 10K
