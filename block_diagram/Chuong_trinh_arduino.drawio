@@ -52,7 +52,7 @@
         <mxCell id="aEcpb6OMDiBvzpBhtqqO-20" value="Compare characters&lt;div&gt;&amp;nbsp;from ESP32 ?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="530" y="430" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aEcpb6OMDiBvzpBhtqqO-25" value="Xuất ra 1 giá trị tương ứng để điều khiển thiết bị" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="aEcpb6OMDiBvzpBhtqqO-25" value="Output a corresponding value to control the device" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aEcpb6OMDiBvzpBhtqqO-29" value="True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -61,16 +61,16 @@
         <mxCell id="VVWvHMrJEC_OictwJcj_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VVWvHMrJEC_OictwJcj_-4" target="VVWvHMrJEC_OictwJcj_-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VVWvHMrJEC_OictwJcj_-4" value="Thực hiện chức năng cảnh báo cháy" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="VVWvHMrJEC_OictwJcj_-4" value="Perform fire alarm function" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VVWvHMrJEC_OictwJcj_-5" value="Thực hiện chức năng cảnh báo khói" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="VVWvHMrJEC_OictwJcj_-5" value="Perform smoke alarm function" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3e_58X6-XvjWUqyTM6S5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3e_58X6-XvjWUqyTM6S5-2" target="aEcpb6OMDiBvzpBhtqqO-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3e_58X6-XvjWUqyTM6S5-2" value="Thực hiện điều khiển các thiết bị bằng nút nhấn" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="3e_58X6-XvjWUqyTM6S5-2" value="Perform control of devices by push buttons" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="300" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3e_58X6-XvjWUqyTM6S5-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEcpb6OMDiBvzpBhtqqO-25" edge="1">
