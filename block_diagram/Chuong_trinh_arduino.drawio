@@ -37,7 +37,7 @@
             <mxPoint x="360" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aEcpb6OMDiBvzpBhtqqO-17" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="aEcpb6OMDiBvzpBhtqqO-17" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="850" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="aEcpb6OMDiBvzpBhtqqO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEcpb6OMDiBvzpBhtqqO-18" target="aEcpb6OMDiBvzpBhtqqO-2" edge="1">
