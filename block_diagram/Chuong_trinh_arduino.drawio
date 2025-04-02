@@ -28,7 +28,7 @@
         <mxCell id="aEcpb6OMDiBvzpBhtqqO-6" value="False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="360" y="520" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aEcpb6OMDiBvzpBhtqqO-11" value="Sai" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="aEcpb6OMDiBvzpBhtqqO-11" value="False" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="710" y="440" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aEcpb6OMDiBvzpBhtqqO-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VVWvHMrJEC_OictwJcj_-5" edge="1">
@@ -49,13 +49,13 @@
         <mxCell id="aEcpb6OMDiBvzpBhtqqO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEcpb6OMDiBvzpBhtqqO-20" target="aEcpb6OMDiBvzpBhtqqO-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aEcpb6OMDiBvzpBhtqqO-20" value="So sánh ký tự từ ESP32 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="aEcpb6OMDiBvzpBhtqqO-20" value="Compare characters&lt;div&gt;&amp;nbsp;from ESP32 ?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="530" y="430" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aEcpb6OMDiBvzpBhtqqO-25" value="Xuất ra 1 giá trị tương ứng để điều khiển thiết bị" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aEcpb6OMDiBvzpBhtqqO-29" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="aEcpb6OMDiBvzpBhtqqO-29" value="True" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="610" y="560" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VVWvHMrJEC_OictwJcj_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VVWvHMrJEC_OictwJcj_-4" target="VVWvHMrJEC_OictwJcj_-5" edge="1">
